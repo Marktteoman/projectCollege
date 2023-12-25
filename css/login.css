@@ -1,0 +1,50 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #3E2020;
+}
+
+.login-container {
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}/*# sourceMappingURL=login.css.map */

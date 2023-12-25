@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3E2020;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+p, b, span, h2, h3 {
+  color: #fff;
+}
+
+h3 {
+  width: 1200;
+  margin: auto;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 48px;
+}
+
+.container_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  font-size: 26px;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+main {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.top_info {
+  text-align: center;
+}
+.top_info img {
+  margin-top: 25px;
+}
+.top_info .attribute {
+  display: inline;
+}
+.top_info .attribute img {
+  padding-left: 20px;
+}
+.top_info .complexity {
+  display: inline;
+}
+.top_info .complexity img {
+  padding-left: 20px;
+}
+.top_info .text_hero p {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  width: 1200px;
+}
+
+.items_list div {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.items_list div p {
+  width: 500px;
+  text-align: center;
+  vertical-align: middle;
+}
+.items_list div img {
+  margin-bottom: 25px;
+}/*# sourceMappingURL=heropage.css.map */
